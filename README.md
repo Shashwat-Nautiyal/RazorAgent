@@ -1,8 +1,8 @@
-# ⚡ RazorAgent — AI Growth & Agentic Commerce Platform
+# ⚡ AgentCart — AI Growth & Agentic Commerce Platform
 
 > **Grow the merchant’s revenue, and make them sellable to AI buyers.**
 
-RazorAgent is an agentic commerce platform built for the **AI Growth & Agentic Commerce** challenge. It unites revenue-growth merchant agents (Conversational Checkout, Upsell & Cross-Sell, Campaign Orchestrator) with autonomous AI Buyer agents operating over open agent protocols (**ACP** and **x402**), under a strict safety kernel where **every money action is explainable, bounded, and gated**.
+AgentCart is an agentic commerce platform built for the **AI Growth & Agentic Commerce** challenge. It unites revenue-growth merchant agents (Conversational Checkout, Upsell & Cross-Sell, Campaign Orchestrator) with autonomous AI Buyer agents operating over open agent protocols (**ACP** and **x402**), under a strict safety kernel where **every money action is explainable, bounded, and gated**.
 
 ---
 
@@ -113,33 +113,6 @@ npm start
 - **API Server**: [http://localhost:5000](http://localhost:5000)
 - **ACP Agent Card**: [http://localhost:5000/.well-known/agent.json](http://localhost:5000/.well-known/agent.json)
 - **JSON-LD Catalog**: [http://localhost:5000/api/catalog](http://localhost:5000/api/catalog)
-
----
-
-## 🧪 Demo Walkthrough Script (5-Minute Tour)
-
-1. **Merchant Portal Login**:
-   - Open [http://localhost:5173](http://localhost:5173) and click **1-Click Demo Merchant** (`merchant@razoragent.demo` / `password123`).
-2. **AI Campaign Orchestrator**:
-   - Navigate to **Revenue Campaigns**.
-   - Notice the Opportunity Radar flagging slow-moving SKUs (e.g. *OmniView VR Headset* with only 2 sales in 30 days).
-   - Click **Launch AI Campaign Now** -> Generates coupon code `BOOST20_...` and a shareable Razorpay payment link with plain-English reasoning.
-3. **Conversational In-App Storefront & Upsell**:
-   - Navigate to **Store & Checkout AI**.
-   - Type `"I want to buy the Wireless Headphones"`.
-   - The Checkout Agent adds the headphones and the Upsell Agent instantly presents a complementary **12% Bundle Deal** with the USB-C cable.
-   - Click **Proceed to Razorpay Checkout** -> Opens the simulated Razorpay modal and captures test payment with celebratory confetti.
-4. **Autonomous AI Buyer Agent (ACP + x402 Protocol)**:
-   - Navigate to **AI Buyer Simulator**.
-   - Set budget to `₹5,000` and objective to `"Buy the best value audio setup"`.
-   - Click **Run Autonomous Buyer Loop**.
-   - Watch the agent discover `/.well-known/agent.json`, query `/api/catalog`, receive the `402 Payment Required` challenge, pay via Razorpay, experience the spending cap block, and execute graceful fallback discovery!
-5. **Failure & Safety Lab**:
-   - Navigate to **Failure Recovery Lab**.
-   - Click **Simulate Payment Timeout & Recovery** -> Demonstrates auto-recovery with a fresh 30-minute link.
-   - Review and approve pending high-value transactions in the **Human Approval Gate Queue**.
-6. **Audit Trail**:
-   - Navigate to **Audit & Safety Trail** to inspect the append-only event stream with plain-English explanations.
 
 ---
 
